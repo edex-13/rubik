@@ -8,6 +8,7 @@ from collections import deque
 counter = 0
 # @numba.jit(nopython=True)
 def busqueda_amplitud_con_nodos(cubo_inicial, es_estado_final, operadores, FUNC_H , nodos_visitados=[] ):
+  # print(es_estado_final)
   estados_visitados = {} 
   global counter 
   counter = 0

@@ -40,7 +40,6 @@ def varificar_paso_2(cubo):
   (cara[0][2] == cara_original[0][2]) and \
   (cara[2][0] == cara_original[2][0]) and \
   (cara[2][2] == cara_original[2][2]):
-    
     if varificar_paso_1(cubo):
       if coste == 4:
         return True
@@ -90,6 +89,7 @@ def varificar_paso_4(cubo):
 
 
 def varificar_paso_5(cubo):
+
   return np.array_equal(cubo , matriz_cubo)
 
 
